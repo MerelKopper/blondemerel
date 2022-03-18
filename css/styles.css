@@ -14,15 +14,30 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #E3FFE7;
 }
+h1 {
+	font-family: 'League Gothic', sans-serif
+}
+h1 { 
+font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+h1 {
+	color: gray;
+}
+h1 {
+	text-shadow: 5px 5px black;
+}
+
 
 .resume-main {
 	background-color: #fffefc;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #A8B4A5;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +51,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #538046;
 }
 
 .biography-details li, .skill-list li {
